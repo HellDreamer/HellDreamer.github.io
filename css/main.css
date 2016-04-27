@@ -5,7 +5,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.6;
-  -webkit-font-smoothing: antialised; }
+  -webkit-font-smoothing: antialiased; }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -80,7 +80,7 @@ section {
     background-image: url("../img/preloader.gif");
     background-size: cover;
     background-repeat: no-repeat;
-    background-posirion: center center;
+    background-position: center center;
     background-color: #fff;
     height: 60px;
     width: 60px;
