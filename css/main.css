@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
@@ -369,7 +369,8 @@ svg path {
   display: none;
   padding: 0; }
   .portfolio_item img {
-    width: 100%; }
+    width: 100%;
+    max-height: 220px; }
   .portfolio_item .port_item_cont {
     position: absolute;
     top: 0;
