@@ -1,0 +1,53 @@
+/* header-login-area */
+.header-login-area{
+	min-width: 970px;
+	background: url(img/background--header-main.jpg) no-repeat center top;
+	background-size: cover;
+	min-height: 430px;
+
+	.header-row{
+
+		h1,h2{
+			color: #fff;
+			line-height: 65px;
+		}
+	}
+
+	.header-login-form{
+		margin-top: 20px;
+	}
+
+	.socio-login{
+		margin-top: 52px;
+	}
+
+	.backed{
+		margin-top: 45px;
+		margin-bottom: 35px;
+		width: 260px;
+		@extend .inline;
+	}
+
+	.store{
+		margin-bottom: 10px;
+	}	
+	
+
+}
+
+.big-ribbon{
+	margin-top: 50px;
+}
+
+.about-project{
+	margin-top: 10px;
+	@extend .inline;
+}
+
+@media (max-width: 1300px){
+
+	.big-ribbon{
+		overflow: hidden;
+	}
+	
+}
